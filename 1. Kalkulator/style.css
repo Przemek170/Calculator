@@ -116,8 +116,8 @@ main {
 }
 
 .history-window .history {
-  margin-left: 10px;
-
+  /* padding-left: 10px; */
+  
   width: 100%;
   height: 95%;
 }
@@ -125,6 +125,34 @@ main {
 .action {
   color: white;
   width: 100%;
-  height: 5%;
+  /* height: 5%; */
   font-size: 30px;
+}
+
+.historyElem {
+  margin-top: 10px;
+  width: 100%;
+  background-color: rgb(20, 19, 19);
+}
+
+.clearButtonSection {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%);
+
+}
+
+.clearHistory {
+  width: 150px;
+  height: 30px;
+  margin: 10px 20px;
+  
+  background-color: black;
+  color: white;
+  border: none;
+  font-size: 20px;
+  border-radius: 3%;
+  cursor: pointer;
 }
